@@ -8,13 +8,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mcproxy
-PKG_SOURCE_VERSION:=b7bd2d0809a0d1f177181c361b9a6c83e193b79a
-PKG_VERSION:=2014-12-31-$(PKG_SOURCE_VERSION)
-PKG_RELEASE:=3
+PKG_SOURCE_VERSION:=b02e16ee3f6cd3a07f89c1e00917115be424b342
+PKG_VERSION:=2017-09-21-$(PKG_SOURCE_VERSION)
+PKG_RELEASE:=4
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=git://github.com/mcproxy/mcproxy.git
-PKG_MAINTAINER:=Steven Barth <cyrus@openwrt.org>
+PKG_SOURCE_URL:=git@github.com:devran01/mcproxy.git
+PKG_MAINTAINER:=Devaraj Ranganna <devaraj.ranganna@arm.com>
 PKG_LICENSE:=GPL-2.0+
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
